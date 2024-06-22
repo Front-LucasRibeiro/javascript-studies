@@ -1,0 +1,1 @@
+// (aritméticos, lógicos, comparação)
