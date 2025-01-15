@@ -1,0 +1,1 @@
+// null - objeto que não tem nada dentro dele, diferente de indefinido (undefined)

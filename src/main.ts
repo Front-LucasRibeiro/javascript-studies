@@ -20,6 +20,8 @@ import {
 import { getProdutctsApi, multiplesPromises } from "./promises";
 import erros from "./tratamento-erros";
 import objetos from "./objetos";
+import forFile from "./estruturas-de-repeticao/for";
+import whileFile from "./estruturas-de-repeticao/while";
 
 const selector = document.querySelector("#app")!;
 
@@ -41,4 +43,6 @@ const selector = document.querySelector("#app")!;
 // selector.innerHTML += `${getProdutctsApi()}`
 // selector.innerHTML += `${multiplesPromises()}`;
 // selector.innerHTML += `${erros()}`;
-selector.innerHTML += `${objetos()}`;
+// selector.innerHTML += `${objetos()}`;
+// selector.innerHTML += `${forFile()}`;
+selector.innerHTML += `${whileFile()}`;
