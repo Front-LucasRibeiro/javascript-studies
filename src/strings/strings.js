@@ -1,4 +1,4 @@
-export default function strings() {
+export default function formattedName() {
   let name = 'Lucas Lima Ribeiro Maranho'
 
   let fullNameFormatted = name.split(" ")
@@ -7,4 +7,25 @@ export default function strings() {
 
   console.log(myName) // Lucas
   console.log(myLastName) // Lima Ribeiro Maranho
+
+
+  let input = document.createElement('input')
+  input.value = myName
+
+  let inputLastName = document.createElement('input')
+  inputLastName.value = myLastName
+
+  let br = document.createElement('br')
+
+  let html = document.querySelector("#app")
+  html.appendChild(br)
+  html.appendChild(input)
+  html.appendChild(inputLastName)
+
+  document.addEventListener("DOMContentLoaded", () => {
+    formattedName();
+  })
+
+  return `${myName} ${myLastName}`
 }
+
