@@ -4,7 +4,7 @@ import {
   getProducts,
   getTitlesProducts,
   listUnic,
-} from "./arrays";
+} from "./arrays/arrays";
 import { operatorTernary } from "./novos-operadores";
 import {
   everyFilter,
@@ -19,7 +19,7 @@ import {
 } from "./filtros";
 import { getProdutctsApi, multiplesPromises } from "./promises";
 import erros from "./tratamento-erros";
-import objetos from "./objetos";
+import objetos from "./objetos/objetos";
 import forFile from "./estruturas-de-repeticao/for";
 import whileFile from "./estruturas-de-repeticao/while";
 import tipagem from "./tipagem"
